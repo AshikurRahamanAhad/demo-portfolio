@@ -10,21 +10,74 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('Asset/web-BG.png');
-    background-size: cover;
-    background-position: center , fixed;
+    background-size: auto;
+    background-position: auto;
+    background-repeat: no-repeat;
     
 }
 .box {
-    width: 20%;
-    height: 100%;
+    width: 190ch;
+    height: 90ch;
     border: 2px solid #000;
-    background-color: #f0f0f0;
+    background-color: #f77545;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: center ;
     font-size: 24px;
     color: #333;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow:  40px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+}
+.mini-box {
+    width: 100ch;
+    height: 150ch;
+    align-self: left;
+    border: 2px solid #000;
+    background-color: #f77545;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 24px;
+    color: #333333;
+    margin: 1% 120% 2% 70%;
+    box-shadow:  40px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    position: right;
+
+}
+.mini-box > h1 {
+    height: 60px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3b1111;
+    background-color: #ea551f;
+    background-size: auto;
+    border-radius: 80px;
+    border: 2px solid #000000;
+    padding: 4% 25%;
+
+}
+.box > h1 {
+    height: 60px;
+    width: 45%;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3b1111;
+    background-color: #ea551f;
+    background-size: auto;
+    border-radius: 80px;
+    padding: 4% 25%;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 50px;
+    border: #070200;
+    color: #000000;
+    text-decoration: none;
+    padding:  1ch;
 }
